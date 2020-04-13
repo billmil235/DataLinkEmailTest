@@ -94,7 +94,7 @@ namespace DataLinkEmailLists
             foreach(var row in secondFileDataList)
             {
 
-                // Get the dictionary that makes on the first name.
+                // Get the dictionary that matches on the first name.
                 if(firstFileDataDict.TryGetValue(row.FirstName, out tempDict))
                 {
 
